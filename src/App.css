@@ -118,6 +118,10 @@ body {
   margin: 0;
 }
 
-input{
+input {
+  background-color: white;
+}
+
+select {
   background-color: white;
 }
