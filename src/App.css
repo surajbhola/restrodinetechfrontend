@@ -117,3 +117,7 @@ body {
 .error-block p {
   margin: 0;
 }
+
+input{
+  background-color: white;
+}

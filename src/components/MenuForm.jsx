@@ -20,8 +20,8 @@ const MenuForm = ({ inputData, onSubmit, children }) => {
         <select
           id="category"
           name="category"
-
           required
+          defaultValue="Select a Category"
           className="selectOption"
           onChange={handleChange}
         >
