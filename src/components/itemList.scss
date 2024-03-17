@@ -1,0 +1,25 @@
+@import "./../app.scss";
+
+.itemList {
+  margin-top: 3rem;
+  box-shadow: 1px 4px 7px gray;
+  @include mobile {
+    margin: 28px 10px 0px 10px;
+  }
+}
+.itemsHeading {
+  display: flex;
+  flex-direction: row;
+  background-color: #bb8ac7;
+  justify-content: space-around;
+  @include mobile {
+    padding: 0px 20px 0px 0px;
+  }
+  .itemHeadingInternalDiv {
+    width: 100%;
+    text-align: center;
+  }
+  h3 {
+    color: white;
+  }
+}

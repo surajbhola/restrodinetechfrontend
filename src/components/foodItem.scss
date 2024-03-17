@@ -1,0 +1,22 @@
+.menuItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 0.5px ridge grey;
+  justify-content: space-around;
+  .deleteBtn {
+    color: red;
+    margin-right: 0.1rem;
+    cursor: pointer;
+  }
+  .menuItemInternalDiv {
+    width: 100%;
+    text-align: center;
+    h3 {
+      font-weight: 500;
+    }
+  }
+  h3 {
+    color: bb8ac7;
+  }
+}

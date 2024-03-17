@@ -1,0 +1,48 @@
+@import "./../app.scss";
+.menuItemsDiv {
+  width: 90%;
+  @include mobile {
+    width: 100%;
+  }
+  h2 {
+    color: #9e63ad;
+    @include mobile {
+      text-align: center;
+    }
+  }
+  .breifForm {
+    display: flex;
+    justify-content: space-between;
+    @include mobile {
+        margin: 6px;
+      }
+    .breifForminternaldiv {
+      @include mobile {
+        width: 80%;
+      }
+    }
+    input {
+      border: 1px ridge grey;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 10px;
+      &:focus{
+        outline: none;
+      }
+      @include mobile {
+        width: inherit;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 13px;
+    padding: 10px;
+      }
+    }
+    h3 {
+      font-weight: 450;
+      @include mobile {
+        text-align: center;
+      }
+    }
+  }
+}

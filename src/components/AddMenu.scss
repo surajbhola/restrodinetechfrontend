@@ -1,0 +1,68 @@
+@import "./../app.scss";
+
+.AddMenuDiv {
+  h2 {
+    color: #9e63ad;
+    @include mobile{
+      text-align: center;
+    }
+  }
+  display: flex;
+  flex-direction: column;
+  .AddMenuPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .FormDiv {
+      box-shadow: 5px 5px 10px #c7bcbc;
+      padding: 30px 60px 10px 60px;
+      width: 30%;
+      @include mobile{
+        width: 60%;
+      }
+      .SaveBtnDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px;
+
+        .SaveBtn {
+          background-color: #9e63ad;
+        }
+      }
+      .FormDivOptions {
+        padding: 3px;
+        width: 105%;
+      }
+      h2 {
+        text-align: center;
+      }
+      h3 {
+        color: #9e63ad;
+      }
+      .selectOption {
+        border: 1px ridge grey;
+        border-radius: 11px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+        color: gray;
+      }
+      input {
+        border: 1px ridge grey;
+        border-radius: 11px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+        &:focus{
+          outline: none;
+        }
+      }
+    }
+  }
+}
