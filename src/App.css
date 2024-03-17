@@ -120,6 +120,7 @@ body {
 
 input {
   background-color: white;
+  color: black;
 }
 
 select {
